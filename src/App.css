@@ -1,38 +1,167 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App-body {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2vw;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.user-profile{
+  align-items: center;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.29);
+  width: 23vw;
+  height: 75vh;
+  padding-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+td{
+  text-align: left;
+  font-size: 3vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: rgb(119, 31, 85);
 }
+.about-user{
+  width: 25vw;
+}
+.name-loca{
+  align-items: center;
+}
+p{
+  margin: 1vw;
+}
+.user-name{
+  font-size:large;
+  font-style: italic;
+  font-weight: bold;
+display: flex;
+align-items: center;
+padding-left: 6vw;
+}
+.user-icon{
+  display: flex;
+  margin-left: auto;
+}
+.location{
+  font-size:medium;
+
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.user-prof-img{
+  width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.img-div{
+  width: 100%;
+  height: 70%;
+}
+.line{
+  border-left: 5px solid rgb(236, 228, 228);
+  height: 100%;
+}
+
+.user-details{
+  display: flex;
+  align-items: center;
+margin-right: auto;
+padding: 2vw;
+font-size: 6vh;
+font-style: italic;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(52, 64, 133); 
+
+}
+
+.user-prof-details{
+  display: flex;
+  padding-left: 8vw;
+  font-size: 2vw;
+  color: rgb(20, 66, 83);
+}
+table{
+  padding: 2vw;
+}
+.edit-user-div{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  padding: 5vw;
+}
+.edit-prof-div{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+.form-div{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+a{
+  color: azure;
+  font-size: 1vw;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.welcome{
+  background-color: rgb(15, 67, 109);
+  color: beige;
+  width: 100%;
+  font-style: italic;
+  padding: 0%;
+  margin: 0%;
+}
+.home-div{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 0%;
+ 
+}
+.head-div{
+  width: 100%;
+  display: flex;
+  gap:5vw;
+}
+
+.edit-user-head{
+  display: flex;
+  align-items: center;
+}
+.edit-user-head h1,h2{
+  background-color: rgb(182, 206, 241);
+  color: rgb(10, 99, 177);
+  border-radius: 10%;
+  font-style: oblique;
+  margin: 0%;
+}
+
+.loc-det{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5vh;
+}
+.user-prof-details th{
+text-align: left;
+font-size: 4vh;
+font-weight: 300;
+}
+.user-prof-details h3{
+  font-style: oblique;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  }
