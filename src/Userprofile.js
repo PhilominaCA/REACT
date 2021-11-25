@@ -24,7 +24,6 @@ export function Userprofile({ userData, udata,setuserData, index }) {
 </span>
      </p>
       <p className="location">{udata.location}
-      
      </p>
       <p> 
       <IconButton aria-label="Edit user" onClick={() => history.push('/edit-user/' + index)}>
@@ -38,26 +37,4 @@ export function Userprofile({ userData, udata,setuserData, index }) {
        </div>
        </div>);
 }
-    {/* <button onClick={() => history.push('/profile/' + index)}>view user profile</button></p>
-    </div>
-    <div className="line"></div>
-       
-        <div>
-        <p>Details</p>
-          <table>
-            <tr><td>Contact</td>
-            <td><EmailIcon/></td>
-            <td>{email}</td></tr>
-            <tr><td>Education</td>
-            <td><SchoolIcon/></td><td>{qualification}</td></tr>
-            <tr><td>Gender</td><td></td><td>{gender}</td></tr>
-          </table>
-        </div>
-        <div className="line"></div>
-        <div>
-        <p>About  <button>Edit Profile</button>
-       </p>
-        <p className="about-user">{about}</p>
-       </div>*/}
-
-
+    

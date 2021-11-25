@@ -2,8 +2,7 @@ import './App.css';
 import {
   Switch,
   Route,
-  Link,
-  Redirect
+  Link
 } from "react-router-dom";
 import { Userdetails } from './Userdetails';
 import { useState } from 'react';
@@ -16,14 +15,8 @@ import { Edituser } from './Edituser';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import HomeIcon from '@mui/icons-material/Home';
 import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
-import ViewListIcon from '@mui/icons-material/ViewList';
 import ViewListOutlinedIcon from '@mui/icons-material/ViewListOutlined';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import { Editprofile } from './Editprofile';
